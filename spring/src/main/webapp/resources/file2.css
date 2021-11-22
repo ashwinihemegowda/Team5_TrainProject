@@ -1,0 +1,53 @@
+
+body{
+background-image: url("form.jpg");
+ background-attachment:fixed;
+ background-size:cover;
+ }
+
+table {
+font-family: arial,sans-serif;
+border-collapse: collapse;
+width: 70%;
+}
+th{
+background-color: #73bffa;
+border: 1px solid #0c1217;
+text-align: left;
+padding: 8px;
+}
+
+ td{
+ border: 1px solid #0c1217;
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: #ffffff;
+}
+
+tr:nth-child(odd) {
+background-color: #dddddd;
+}
+
+mark{
+background-color:#73bffa;
+color:black;
+}
+
+
+.button {
+background-color: #1c87c9;
+border: none;
+color: white;
+padding: 15px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 25px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius:25px;
+}
+
